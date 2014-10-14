@@ -2,4 +2,4 @@ test
 ====
 
 a <- rnorm(1000)
-hist(a)
+hist(a, nlevel=c(-1,1))
